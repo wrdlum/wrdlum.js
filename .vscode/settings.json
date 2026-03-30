@@ -1,0 +1,128 @@
+{
+  "npm.packageManager": "pnpm",
+  "eslint.packageManager": "pnpm",
+  "eslint.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "jsonc",
+    "json5",
+    "markdown",
+    "css",
+    "yaml"
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.turbo": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/.turbo": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "json.schemaDownload.enable": true,
+  "json.validate.enable": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["package.json"],
+      "url": "https://json.schemastore.org/package.json"
+    },
+    {
+      "fileMatch": ["turbo.json"],
+      "url": "https://turbo.build/schema.v2.json"
+    }
+  ],
+  "yaml.schemaStore.enable": true,
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/pnpm-workspace.json": "pnpm-workspace.yaml",
+    "https://json.schemastore.org/lefthook.json": [
+      "lefthook.yml",
+      "lefthook.yaml"
+    ]
+  },
+  "shellcheck.enable": true,
+  "shellcheck.run": "onSave",
+  "shellcheck.useWorkspaceRootAsCwd": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "files.trimTrailingWhitespace": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
