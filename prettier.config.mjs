@@ -1,7 +1,7 @@
 export default {
   trailingComma: 'es5',
   tabWidth: 2,
-  semi: false,
+  semi: true,
   singleQuote: true,
   plugins: [
     '@prettier/plugin-xml',
@@ -42,4 +42,4 @@ export default {
       },
     },
   ],
-}
+};

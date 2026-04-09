@@ -1,6 +1,7 @@
 {
-  "name": "wrdlum.js",
+  "name": "wrdlumjs-monorepo",
   "private": true,
+  "license": "Apache-2.0",
   "scripts": {
     "commit": "cz",
     "format": "pnpx prettier --ignore-unknown --write .",
@@ -25,6 +26,7 @@
     "cz-git": "^1.12.0",
     "eslint": "^10.1.0",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-node-dependencies": "^2.2.0",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.37.5",
